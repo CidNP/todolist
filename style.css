@@ -7,13 +7,20 @@ body{
 }
 #add
 {
-	background-color: indianred;
+	background-color: red;
 	border: 0;
 	color: white;
 	padding: 10px 10px;
 	padding-right: 40px;
 	cursor: pointer;
 	margin-top: 35px;
+}
+#add:hover{
+	background: black;
+}
+
+#add:active{
+	background: blue;
 }
 .remove{
 	margin-top: 13px;
